@@ -1,0 +1,271 @@
+body, main, nav, ul, li, h1, h2, h3, a{
+    margin:0;
+    /*padding:0;*/
+    /*font-family:'Trebuchet MS';*/
+    font-family: Times New Roman;
+    
+}
+
+
+.banner img{
+    position: relative;
+    max-width:100% ;
+    left:0%;
+}
+.main_nav {
+    background-color: #0b0b0b;
+    padding: 0px 0px;
+    position: sticky;
+    top: 0px;
+    width: 100%;
+    left:0;
+}
+.main_nav ul{
+    text-align: center;
+    white-space: nowrap;
+    max-width: 100%;
+    margin: 0 auto;
+    
+}
+
+.main_nav li a{
+    text-decoration: none;
+    color: #fdebd0;
+}
+.main_nav li{
+   
+    max-width: 12%;
+    width: auto;   
+    display: inline-block;
+    padding: 0.7%;
+    
+
+}
+/*.main_nav li .work_report, .portals, .labs,.other_bodies, .tech_teams, .team{
+    text-align: center;
+    font-size: 2%px;
+    position: relative;
+    top:-1em;
+    margin: 0 2em;
+    box-sizing: ;
+
+}*/
+.main_nav .clubs{
+    width:auto;
+    max-width: 7%;
+    text-align: right;
+    font-size: 4%px;
+    position: relative;
+    top:-1em;
+}
+.main_nav .work_report{
+    width:auto;
+    max-width: 17%;
+    text-align: right;
+    font-size: 4%px;
+    position: relative;
+    top:-1em;
+}
+.main_nav .portals{
+    width:auto;
+    max-width: 7%;
+    text-align: right;
+    font-size: 4%px;
+    position: relative;
+    top:-1em;
+}
+.main_nav .labs{
+    width:auto;
+    max-width: 7%;
+    text-align: right;
+    font-size: 4%px;
+    position: relative;
+    top:-1em;
+}
+.main_nav .other_bodies{
+    width:auto;
+    max-width: 20%;
+    text-align: right;
+    font-size: 4%px;
+    position: relative;
+    top:-1em;
+}
+.main_nav .tech_teams{
+    width:auto;
+    max-width: 11%;
+    text-align: right;
+    font-size: 4%px;
+    position: relative;
+    top:-1em;
+}
+.main_nav .team{
+    margin-left: 15px;
+    margin-right: 20px;
+    width:auto;
+    max-width: 18%;
+    text-align: right;
+    font-size: 4%px;
+    position: relative;
+    top:-1em;
+}
+
+
+.main_nav li img{
+    position: relative;
+    max-width:110% ;
+    margin:0 auto;
+
+}
+main{
+    max-width: 100%;
+    width: 2000px;
+    margin:0 auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+    line-height: 1.5em;
+    column-count: 2;
+    column-gap: 2%;
+    font-size: 120%;
+    color: #0b0b0b ;
+
+
+}
+main, .tag{
+    background-color: #fdebd0;
+}
+.tag{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.tagline {
+    padding: 5px 15px;
+    margin: 10px auto;
+    border:#ff3131  solid 5px;
+    border-radius:50px ;
+    display: inline-block;
+    
+    h1{
+        color: rgb(9, 6, 28);
+        font-size: 200%;
+    }
+    span{
+        color:#ff3131;
+        font-style: oblique;
+        font-size: 130%;
+    }
+}
+h2{
+    color: #ff3131;
+    padding:0;
+    margin:0 auto;        
+}
+
+.about{
+    
+    h4{
+        color:rgb(9, 6, 28);
+        font-style: oblique;
+        padding:0;
+        margin:0 auto; 
+    }
+}
+.pors img{
+    max-width: 90%;
+}
+
+.media{
+    background-color:#fdebd0;
+    padding:50px auto;
+    width: 100%;
+    position: relative;
+    
+    
+
+}
+.media ul{
+    white-space: nowrap;
+    margin: 0 auto;  
+}
+.media li{
+    padding: 0 0;
+    margin: 40px 1%;
+    margin-bottom: 20px;
+    display:inline-block;
+    height: auto;
+    width: 3%;
+    max-width:25px; 
+}
+
+.contact{
+    text-align: center;
+}
+.copyright{
+    width: 100%;
+    background-color: #ff3131;
+    margin:0;
+    text-align: center;
+    padding:10px 0;
+    color: #fdebd0;
+    p{
+        width:100%;
+        
+        display:inline-block;
+        white-space: nowrap;
+    }
+}
+
+/*Pseudo Classes*/
+nav li a:hover{
+    color:#ff3131;
+}
+.icons li a:hover{
+    position: relative;
+    top:-3px;
+}
+
+/*Responsive styles*/
+
+@media screen and (max-width: 750px){
+
+.main_nav li .work_report,.clubs, .portals, .labs,.other_bodies, .tech_teams, .team{
+    text-align: center;
+    font-size: 12px;
+    
+}
+}
+
+@media screen and (max-width: 550px){
+    .main_nav li .work_report,.clubs, .portals, .labs,.other_bodies, .tech_teams, .team{
+        text-align: center;
+        font-size: 10px;}
+    
+    }
+
+@media screen and (max-width: 500px) {
+    .main_nav{
+        position: relative;
+    }
+    .tagline{
+        border:#ff3131  solid 2px;
+    }
+    .main_nav li{
+        display:block;
+        text-align: center;
+    }
+    .main_nav li a, .team, .clubs{
+        margin:0;
+        padding:0;
+        font-size: 10px
+    }
+    .main_nav .team{
+        margin-left: 0;
+        padding-left: 0;
+    }
+    .main_nav ul{
+        text-align: center;
+    }
+    .tag, main{
+        font-size: 50%;}
+
+    
+}
